@@ -1,7 +1,7 @@
 import express from "express";
-import app from "./src/config/app.js";
-import connectDB from './src/config/db.js';
-import env from "./src/config/env.js";
+import app from "./config/app.js";
+import connectDB from './config/db.js';
+import env from "./config/env.js";
 
 const startServer = async (): Promise<void> => {
   try {
